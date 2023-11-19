@@ -22,9 +22,9 @@ const renderizarTaskList = (taskList) => {
                 <td>${task.id}</td>
                 <td class="${taskClass}">${task.taskName}</td>
                 <td><i class="bi ${disableChangeStatus} ${
-      task.estado ? "bi-clipboard-check-fill" : "bi-clipboard-fill"
+      task.estado ? "bi-clipboard2-check-fill" : "bi-clipboard2-fill"
     }" onclick="changeStatusTask(${task.id})"></i></td>
-                <td><i class="bi bi-trash-fill" onclick="deleteTask(${
+                <td><i class="bi bi-trash3-fill" onclick="deleteTask(${
                   task.id
                 })"></i></td>
             </tr>`;
