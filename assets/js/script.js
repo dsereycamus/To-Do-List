@@ -7,9 +7,9 @@ let taskList = [
 ];
 
 // Recuperar tareas almacenadas en localStorage al cargar la página
-if (localStorage.getItem("taskList")) {
-  taskList = JSON.parse(localStorage.getItem("taskList"));
-}
+// if (localStorage.getItem("taskList")) {
+//   taskList = JSON.parse(localStorage.getItem("taskList"));
+// }
 
 const renderizarTaskList = (taskList) => {
   let html = "";
@@ -37,7 +37,7 @@ const renderizarTaskList = (taskList) => {
   ).length;
 
   // Guardar tareas en localStorage cada vez que se renderiza la lista
-  localStorage.setItem("taskList", JSON.stringify(taskList));
+  //   localStorage.setItem("taskList", JSON.stringify(taskList));
 };
 
 const changeStatusTask = (id) => {
