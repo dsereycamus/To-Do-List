@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 2%;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  background-color: #dddede;
+  border-radius: 10px;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  text-align: left;
+}
+
+tr {
+  vertical-align: middle;
+}
+
+i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.bi-clipboard-fill {
+  color: #333333;
+}
+
+.bi-trash-fill {
+  color: #ff0000;
+}
+
+.bi-clipboard-check-fill {
+  color: #008000;
+}
+
+.completed-task {
+  font-style: italic;
+  text-decoration: line-through; /* Línea a través del texto */
+}
+
+.custom-table {
+  background-color: #dddede;
+}
+.custom-table th,
+.custom-table td {
+  background-color: inherit; /* Mantiene el color de fondo de las celdas igual que el fondo de la tabla */
+}
